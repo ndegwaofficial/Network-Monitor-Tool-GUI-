@@ -89,26 +89,6 @@ Customization
 
 -   Customize the `process_packet` method to extract and display the specific information you need from the captured packets.
 
-Extending the Tool
-------------------
-
-### GUI/Web Interface
-
--   **Desktop GUI**: Use libraries like `tkinter` to create a desktop GUI. This will allow users to interact with the tool through a graphical interface instead of the command line.
-
--   **Web Interface**: Use frameworks like `Flask` or `Django` to create a web interface. This will allow users to monitor the network through a web browser.
-
-### Database Storage
-
--   **SQLite**: Store captured data in a SQLite database for later analysis. SQLite is lightweight and easy to set up.
-
--   **PostgreSQL**: For larger networks and more complex queries, consider using PostgreSQL.
-
-### Advanced Traffic Analysis
-
--   **Deep Packet Inspection**: Implement deeper packet inspection to identify applications, protocols, and potential security issues. This can involve analyzing packet payloads and using more advanced libraries or tools.
-
-
 Contributing
 ------------
 
