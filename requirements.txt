@@ -1,0 +1,5 @@
+scapy
+psutil
+sqlite3
+flask
+tkinter
